@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Tab Bouncer",
-    "version": "0.1",
+    "version": "0.1.1",
     "description": "Move tabs out of windows that don't want them.",
     "icons": {},
     "browser_specific_settings": {
