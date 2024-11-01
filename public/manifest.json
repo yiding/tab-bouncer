@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Bouncer",
+    "version": "0.1",
+    "description": "Move tabs out of windows that don't want them.",
+    "icons": {},
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{b00178c5-bde3-4af7-9315-d28778fc0659}"
+        }
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "action": {
+        "default_icon": "unlocked.svg",
+        "default_title": "Prevent tabs from opening in this window",
+        "default_area": "tabstrip",
+        "theme_icons": [
+            {
+                "light": "unlocked-dark.svg",
+                "dark": "unlocked.svg",
+                "size": 32
+            }
+        ]
+    }
+}

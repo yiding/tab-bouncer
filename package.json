@@ -1,0 +1,19 @@
+{
+  "name": "tab-bouncer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "package": "vite build && web-ext build -s dist --overwrite-dest"
+  },
+  "devDependencies": {
+    "tslib": "^2.8.0",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "web-ext": "^8.3.0"
+  },
+  "dependencies": {
+    "@types/webextension-polyfill": "^0.12.1"
+  }
+}
